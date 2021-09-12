@@ -10,11 +10,11 @@ docker build .
 2. Run the project on 8080 port
 
 ```
-docker run AccountName/ProjectName
+docker run -p 8080:8080 AccountName/ProjectName
 ```
 
 OR
 
 ```
-docker run containerId
+docker run -p 8080:8080 containerId
 ```
